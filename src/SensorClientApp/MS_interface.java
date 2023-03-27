@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Group13_Phase2_SCA;
+package SensorClientApp;
 
 
 import static java.time.Clock.system;

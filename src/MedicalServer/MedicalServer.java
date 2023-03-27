@@ -1,4 +1,4 @@
-package Group13_Phase2_MS;
+package MedicalServer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,6 +14,7 @@ public class MedicalServer {
         // Creat an object from the Action_interface to access the GUI printing method in the class
         Action_interface alert= new Action_interface();
         alert.setVisible(true);
+        
         //Creat a string (action) to store the action that appear on the (alert) GUI
         String action;
         

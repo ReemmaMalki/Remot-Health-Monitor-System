@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-package Group13_Phase2_PS;
+ 
+package PersonalServer;
 
-import Group13_Phase2_SCA.*;
 
-/**
- *
- * @author rayqurashi
- */
 public class showData_interface extends javax.swing.JFrame {
 
     /**

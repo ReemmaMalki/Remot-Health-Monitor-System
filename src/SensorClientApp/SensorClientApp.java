@@ -1,4 +1,4 @@
-package Group13_Phase2_SCA;
+package SensorClientApp;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -47,8 +47,8 @@ public class SensorClientApp {
         Random randNo = new Random();
         
         // Create an object from the main GUI and make it visible
-//        MS_interface ms = new MS_interface();
-//        ms.setVisible(true);
+        //MS_interface ms = new MS_interface();
+        //ms.setVisible(true);
         
         // Creat an object from the showData_interface to be able to send the data to that GUI
         showData_interface show=new showData_interface();
@@ -61,13 +61,10 @@ public class SensorClientApp {
                 + "(Note that the minimum time of execution is 60 seconds)");
         inputUser = input.nextInt();
 
-//         The minimum time of execution is 60 seconds
         if (inputUser < 60) {
             inputUser = 60;
         }
-//        if (realTime < 60) {
-//            realTime = 60;
-//        }
+
         System.out.println("The Sensor Client server will send the data every 5 seconds to the Personal Server application");
 
         // Create array of {date, time, Temperature, HeartRate, OxygenLevel} 
@@ -80,8 +77,8 @@ public class SensorClientApp {
         
         // Loop for a persistent connection over a period of time
         LocalTime currentTime = java.time.LocalTime.now();
-     LocalTime endTime = currentTime.plusSeconds(inputUser);
-  //      LocalTime endTime = currentTime.plusSeconds(realTime);
+        LocalTime endTime = currentTime.plusSeconds(inputUser);
+
         
         while (currentTime.isBefore(endTime)) {
 
@@ -106,7 +103,7 @@ public class SensorClientApp {
             String msgH="At date: " + date + ", time " + time + ", sensed heart rate is " + HeartRate;
             System.out.println(msgH);
             show.heartToString(msgH);
-           show.setVisible(true);
+            show.setVisible(true);
             
             
             String msgO="At date: " + date + ", time " + time + ", sensed oxygen saturation is " + OxygenLevel;

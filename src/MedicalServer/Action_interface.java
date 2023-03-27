@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-package Group13_Phase2_MS;
 
-/**
- *
- * @author rayqurashi
- */
+package MedicalServer;
+
+
 public class Action_interface extends javax.swing.JFrame {
 
     /**
