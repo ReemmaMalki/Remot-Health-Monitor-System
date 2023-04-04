@@ -59,7 +59,7 @@ Upon receiving the data, the Personal Server starts processing the information t
 If the information needs to be sent to the caregiver, it is sent to the Medical Server via TCP sockets. After that,
 the Medical Server show the information and the corresponding action to be taken by the caregiver.
 
-* to Start : run medical server-> personal server -> Sensor Client application 
-* presss "Start the system" 
+* To Start : run medical server-> personal server -> Sensor Client application 
+* Tresss "Start the system" 
 * Head back to terminal and enter the execution time in seconds (must be > 60s)
 * The system will generate the data randomly
