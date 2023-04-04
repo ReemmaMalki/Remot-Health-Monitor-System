@@ -7,7 +7,7 @@
 
 
 
-##RHMS application describtion
+#RHMS application describtion
 
 Remote health monitoring Systems Utilizes technology to keep an eye on patients wherever they might be!
 
@@ -20,7 +20,7 @@ THE RHMSs usually consist of:
 2- Software that will analyse health data providing therapy suggestions and warnings.
 
 
-##**Technologies Describtion**
+#**Technologies Describtion**
 
 #**Java TCP Sockets**
 
