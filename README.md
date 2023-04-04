@@ -7,7 +7,7 @@
 
 
 
-#RHMS application describtion
+## RHMS application describtion
 
 Remote health monitoring Systems Utilizes technology to keep an eye on patients wherever they might be!
 
@@ -20,9 +20,9 @@ THE RHMSs usually consist of:
 2- Software that will analyse health data providing therapy suggestions and warnings.
 
 
-#**Technologies Describtion**
+## Technologies Describtion
 
-#**Java TCP Sockets**
+# Java TCP Sockets
 
 A Java socket is one endpoint of a two-way communication relationship between two programs running on the network.
 
@@ -33,7 +33,7 @@ A port number and an IP address make up an endpoint. In this project we focus on
 connection.
 
 
-#Role of Client and Server in The RHMS application
+# Role of Client and Server in The RHMS application
 
 The main function of this system can only be accomplished through client and
 
@@ -48,7 +48,7 @@ represents the mind as it decides whether to take action based on the received i
 from the client or not.
 
 
-##**How to Run and Use the System**
+## How to Run and Use the System
  
 The code attached is a 1-device code, but as you go through the files you'll find that the lines of code 
 that allows it to work in several devices are commented, you can uncomment them and use each device ip to connect 
