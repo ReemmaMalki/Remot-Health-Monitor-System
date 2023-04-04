@@ -7,7 +7,7 @@
 
 
 
-##**RHMS application describtion**
+##RHMS application describtion
 
 Remote health monitoring Systems Utilizes technology to keep an eye on patients wherever they might be!
 
