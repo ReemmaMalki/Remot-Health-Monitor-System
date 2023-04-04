@@ -33,7 +33,7 @@ A port number and an IP address make up an endpoint. In this project we focus on
 connection.
 
 
-#**Role of Client and Server in The RHMS application**
+#Role of Client and Server in The RHMS application
 
 The main function of this system can only be accomplished through client and
 
